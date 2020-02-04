@@ -1,8 +1,10 @@
+const dotenv = require('dotenv').config();
 const express = require("express");
 const parser = require("body-parser");
 const cors = require("cors");
 const bookmarksController = require("./controllers/bookmarks");
 const usersController = require("./controllers/users");
+
 
 // instantiate express
 const app = express();

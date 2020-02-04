@@ -1,6 +1,3 @@
-CREATE DATABASE booke;
-
-\c booke
 
 CREATE TABLE users (
     id serial,
